@@ -1,0 +1,50 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #111518;
+
+  --primary-text-color: #111518;
+  --secondary-text-color: #b9b9b9;
+
+  --white-text-color: #ffffff;
+
+  --accent-color: #ff6b09;
+}
+
+body {
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+.header {
+  background-color: var(--primary-bg-color);
+}
+
+.logo {
+  text-transform: uppercase;
+}
+.logo-highlight {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-btn {
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.hero-title {
+  /* color: var(--primary-text-color); */
+}
